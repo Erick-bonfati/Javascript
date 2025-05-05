@@ -36,13 +36,13 @@ function criaPessoa(nome, sobrenome, a, p) {
 }
 
 const p1 = criaPessoa('Luiz', 'Otavio', 1.8, 80);
-const p2 = criaPessoa('Erick', 'Bonfati', 1.8, 104);
+const p2 = criaPessoa('Erick', 'Bonfati', 1.8, 111);
 console.log(p1);
 console.log(p1.fala('falando sobre JS')); // Luiz está falando sobre JS.
 console.log(p1.nomeCompleto); // Luiz Otavio
 console.log(p1.imc); // 24.69
 console.log(p2.nomeCompleto); // Erick Bonfati
-console.log(p2.imc); // 32.10
+console.log(p2.imc); // 34.26
 
 p1.nomeCompleto = "Maria dolores silva"; // ['dolores', 'silva'] -> retorna o restante do array pois pedimos um console.log
 

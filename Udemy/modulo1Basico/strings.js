@@ -2,7 +2,7 @@
 
 // Variavel de escape: \texto\
 
-let umaString = "Um \"texto\"";
+let umaString = "Um \"texto\" normal";
 
 console.log(umaString);
 
