@@ -13,7 +13,7 @@ function usaFalaNome() {
   falaNome();
 }
 
-usaFalaNome(); // Erick
+usaFalaNome(); // Luiz
 
 // Closures -> São funções que tem acesso a todos escopos, que são: o próprio escopo, do da mãe dela e ao escopo global
 
@@ -41,6 +41,6 @@ console.log(nome1(), nome2()); // tipo anonima
   }
 
   falaNome(); // Erick Miranda
-  console.log(idade, peso, altura); // 20 100 1.8
+  console.log(idade, peso, altura); // 20 113 1.8
 
-}) (20, 100, 1.80);
+}) (20, 112, 1.80);
