@@ -38,12 +38,13 @@ let numero2 = Math.round(numero1); // Arredonda para o numero mais proximo, se f
 
 console.log(numero2); 
 
-console.log(Math.max(1,2,3,4,5, 60, 540, 20, 204, 1000, 2314512431, 23131, 2100)); // 2314512431 -> Retorna o maior numero entre os que ele encontrou
-console.log(Math.min(1,2,3,4,5, 60, 540, 20, 204, 1000, 2314512431, 23131, 2100)); // 1 -> Retorna o menor numero entre os que ele encontrou
+console.log(Math.max(1,2,3,4,5, 60, 540, 20, 204, 1000, 9841, 23131, 2100)); // 23131 -> Retorna o maior numero entre os que ele encontrou
+console.log(Math.min(1,2,3,4,5, 60, 540, 20, 204, 1000, 9841, 23131, 2100)); // 1 -> Retorna o menor numero entre os que ele encontrou
 
 console.log(Math.random()); //Gera um numero aleatorio com varias casas decimais
 
 let aleatorio = Math.round(Math.random() * (100 - 1) + 1); // logica para gerar um numero aleatorio entre 100 e 1 e também para arredondar para o numero mais proximo
+// Usamos a logica (100 - 1) + 1 para a multiplicação ficar entre 1 a 99.9999 e não 0 e 99.999
 
 //aleatorio = parseInt(aleatorio); // converte para int
 

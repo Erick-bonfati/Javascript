@@ -122,3 +122,12 @@ instanceof - Returns true if an object is an instance of an object type
 
 */
 
+let aleatorio  = Math.round(Math.random() * (100 - 1) + 1);
+
+if(aleatorio % 2 === 0) {
+  console.log(aleatorio);
+  console.log('Par')
+} else {
+  console.log(aleatorio);
+  console.log('Impar')
+}

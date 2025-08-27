@@ -38,11 +38,11 @@ console.log(string3.indexOf("o", 3)); // 7
 // replace -> substitui uma coisa por outra
 
 console.log(string3); // Um texto
-console.log(string3.replace("Um", "Outro")); // Outro texto
+console.log(string3.replace("Um", "Outro")); // Outro texto - seleciona o que voce quer substituir pelo novo conteudo
 
 // lenght -> retorna o tamanho total da string, mas esse não considera como um indice e sim o tamanho total, se o texto tem 9 caracteres, ele vai retornar 9 e não 8, porque não conta o zero
 
-//                 012345678910234
+//                 123456789012345
 const stringTam = "Eu sou um texto"
 
 console.log(stringTam.length); // 15
