@@ -35,5 +35,5 @@ for(let i = 0; i <= 150; i++) {
   c1.acelerar();
 }
 
-c1.velocidade = 2000;
+c1.velocidade = 140;
 console.log(c1)

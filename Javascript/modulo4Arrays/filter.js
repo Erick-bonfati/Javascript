@@ -25,7 +25,7 @@ const pessoas = [
 
 const pessoaNomeGrande = pessoas.filter(obj => obj.nome.length >= 7); // retorna pessoas que tem o nome mais do que 7 caracteres
 const pessoaMais50Anos = pessoas.filter(obj => obj.idade >= 50); // retorna pessoas que tem mais de 50 anos
-const pessoaTerminaComA = pessoas.filter(obj => obj.nome.toLocaleLowerCase().endsWith('a')); // retorna apenas pessoas que o nome termina com a letra 'A'
+const pessoaTerminaComA = pessoas.filter(obj => obj.nome.toLocaleLowerCase().endsWith('a')); // retorna apenas pessoas que o nome termina com a letra 'a'
 
 console.log(pessoaNomeGrande); // [ { nome: 'Leticia', idade: 62 }, { nome: 'Eduardo', idade: 55 }, { nome: 'Wallace', idade: 47 } ]
 console.log(pessoaMais50Anos); // [ { nome: 'Leticia', idade: 62 }, { nome: 'Eduardo', idade: 55 } ]

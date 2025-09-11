@@ -10,7 +10,7 @@ const timer = setInterval(function() { // seta um interval que executa determina
   console.log(mostraHora());
 }, 1000);
 
-setTimeout(function() { // seta um timeout para parar de executar o setInterval, aqui colocamos para parar daqui a 10 segundos
+setTimeout(function() { // seta um timeout para parar de executar o setInterval, aqui colocamos para parar daqui a 3 segundos
   clearInterval(timer);
 }, 3000);
 

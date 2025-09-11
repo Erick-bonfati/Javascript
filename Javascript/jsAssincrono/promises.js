@@ -21,7 +21,7 @@ esperaAi('Conexão com o BD', rand(1, 3)) // sempre que chamarmos um resolve e e
 })
 .then(resposta => {
   console.log(resposta); // Buscando dados na BASE
-  return esperaAi(2, rand(1, 3)); // proximo resolve
+  return esperaAi("Tratando os dados da BASE", rand(1, 3)); // proximo resolve
 })
 .then(resposta => {
   console.log(resposta) // Tratando os dados da BASE

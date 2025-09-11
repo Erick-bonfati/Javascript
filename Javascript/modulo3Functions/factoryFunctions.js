@@ -36,7 +36,7 @@ function criaPessoa(nome, sobrenome, a, p) {
 }
 
 const p1 = criaPessoa('Luiz', 'Otavio', 1.8, 80);
-const p2 = criaPessoa('Erick', 'Bonfati', 1.8, 111);
+const p2 = criaPessoa('Erick', 'Bonfati', 1.8, 114);
 console.log(p1);
 console.log(p1.fala('falando sobre JS')); // Luiz está falando sobre JS.
 console.log(p1.nomeCompleto); // Luiz Otavio
