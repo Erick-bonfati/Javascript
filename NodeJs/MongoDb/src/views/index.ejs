@@ -6,6 +6,14 @@
   <title>Testes</title>
 </head>
 <body>
-  <h1>Renderizei</h1>
+  <h1>
+
+    <% if(typeof titulo !== 'undefined') { %> <!-- Abrimos e fechamos tags para realizar controles de fluxo no HTML -->
+      <%= titulo %> <!-- USAMOS O SINAL DE IGUAL PARA DIZER QUE QUEREMOS EXIBIR UMA VARIAVEL NA TELA -->
+    <% } else {  %> <!-- ABERTURA E FECHAMENTO DE TAGS COM EJS FUNCIONA ASSIM ( REACT É BEM PARECIDO COM ISSO, POREM SINTAXE DIFERENTE) -->
+      Titulo não foi enviado.
+    <% } %>
+
+  </h1>
 </body>
 </html>
