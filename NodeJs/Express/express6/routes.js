@@ -2,11 +2,11 @@ const express = require('express');
 
 const route = express.Router();
 
-const home = require('./src/controllers/homeController')
+const home = require('./src/controllers/home')
 
 //Rotas da homePage
 route.get('/', home.paginaInicial);
 
-route.post('/', home.recebeForm);
+route.post('/res', home.recebeForm);
 
 module.exports = route;

@@ -6,3 +6,14 @@ exports.middlewareGlobal = (req, res, next) => {
 exports.outroMiddleware = (req, res, next) => {
   next();
 }
+
+exports.checkCsurfError = (err, req, res, next) => { // SE O TOKEN ENVIADO ESTIVER COM ESSA NA VALIDAÇÃO ELE ENVIA ESSE ERRO NO FRONTEND
+  if(err && "EBADCSRFTOKEN" === err.code) {
+    return res.render('404'); // exibe a pagina 404.ejs
+  }
+}
+
+exports.csrfMiddleware = (req, res, next) => {
+  res.locals.csrfToken = req.csrfToken();
+  next();
+}
